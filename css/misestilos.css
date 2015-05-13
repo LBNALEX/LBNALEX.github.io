@@ -1,0 +1,59 @@
+body{
+		font-family: 'Lato', sans-serif;
+	background-color: #B9A8A8;
+}
+.color1{
+	background-color: #000000;
+}
+h1{
+	color:#FD0707;
+}
+h4{
+	color:#f7f7f7
+}
+h3{
+	color: yellow;
+}
+.color2{
+	background-color: #B9A8A8;
+}
+.color3{
+	background-color: #453E3E
+}
+
+img{
+	margin: 5px;
+	border-radius: 10px;
+}
+
+ul li{
+	text-align: left;
+	color:#FFFFFF
+}
+.TipoLetra{
+	font-family: 'Indie Flower', cursive;
+}
+.TituloGrande{
+	font-size: 4em;
+	color:#FD0707;
+}
+
+p{
+	color:#FFFFFF;
+}
+h2{
+	color:#F5A10A;
+}
+.blanco{
+	color:#FFFFFF;
+}
+.renglon{
+	background-color: #FFFFFF;
+}
+.noLista li{
+	list-style-type: none;
+
+}
+.fondoblanco{
+	background-color: #FFFFFF;
+}

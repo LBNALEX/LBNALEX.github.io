@@ -1,0 +1,89 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: black;
+	
+}
+img{
+	max-width: 100%;
+}
+.quitar-float{
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 100px;
+}
+.TipoLetra{
+	font-family: 'Indie Flower', cursive;
+}
+.TituloGrande{
+	font-size: 4em;
+}
+.AZUL{
+	color: #1E7C8F;
+}
+.CasiNegro{
+	color: #070719;
+}
+.Amarillo{
+	color: #FFFF00;
+}
+.Blanco{
+	color: #FAFAFA;
+}
+.Coloor{
+	color: #A9F5F2;
+}
+.espacio-derecha{
+	margin-right: 1em;
+}
+a{
+	color: #01DCFC;
+}
+.noLista{
+	margin: 0px;
+	padding: 0px;
+}
+.noLista li{
+	list-style-type: none;
+
+}
+.Gris{
+	background-color: #eee;
+}
+.paddingLargo{
+	padding: 5px 10px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+}
+.retraso1{
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+animation-delay:1s;
+}
+.retraso4{
+-webkit-animation-delay: 4s;
+-moz-animation-delay: 4s;
+animation-delay:4s;
+}
+.retraso2{
+-webkit-animation-delay: 2s;
+-moz-animation-delay: 2s;
+animation-delay:2s;
+}
+.retraso5{
+-webkit-animation-delay: 5s;
+-moz-animation-delay: 5s;
+animation-delay:5s;
+}
+.retraso3{
+-webkit-animation-delay: 3s;
+-moz-animation-delay: 3s;
+animation-delay:3s;
+}
+.retraso6{
+-webkit-animation-delay: 6s;
+-moz-animation-delay: 6s;
+animation-delay:6s;
+}
