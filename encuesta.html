@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sinaloa</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/misestilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<form name="Opinion" method="POST" action="Info.php">
+	<header>
+		<div class="container-fluid color1">
+			<div class="row">
+				<div class="col-xs-12">
+					<img src="PORTADA.png" align="left" width="200px">
+					<h1 align="center" class="TituloGrande TipoLetra">Sinaloa</h1>
+					<h4 align="center">"Vocación en el derecho"</h4>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="row">
+		<nav class="col-xs-3 color2">
+			<h3 align="center">Navegación</h3>
+			<div class="list-group">
+				<a href="index.html" class="list-group-item ">Inicio</a>
+				<a href="historia.html" class="list-group-item ">Historia</a>
+				<a href="municipios.html" class="list-group-item ">Municipios</a>
+				<a href="deportes.html" class="list-group-item">Deportes</a>
+				<a href="encuesta.html" class="list-group-item active ">Encuesta</a>
+			</div>
+		</nav>
+		<section class="col-xs-9 color3" align="center">
+			<h1 align="center">Opiniones</h1>
+			<hr>
+			<h1 align="center">Datos Personales</h1>
+			<table align="center">
+				<tr>
+					<td class="blanco">Nombre:</td>
+					<td><input type="text" name="nom"></td>
+				</tr>
+				<tr>
+					<td class="blanco">Edad:</td>
+					<td><input type="text" name="edad"></td>
+				</tr>
+				<tr>
+					<td class="blanco">Correo Eletronico:</td>
+					<td><input type="text" name="correo"></td>
+				</tr>
+				<tr>
+					<td class="blanco">Sexo:</td>
+					<td class="blanco">
+					M<input type="radio" name="sexo" value="Masculino">
+					F<input type="radio" name="sexo" value="Femenino">
+					</td>
+				</tr>
+			</table>
+			<h1 align="center">Encuesta</h1>
+			<h2 align="center">¿Que municipio te gusta mas?</h2>
+			<table align="center">
+				<tr>
+					<td>
+						<select  name ="fav"> 
+						<option value="Ahome">Ahome</option>
+						<option value="Angostura">Angostura</option>
+						<option value="Badiraguato">Badiraguato</option>
+						<option value="Choix">Choix</option>
+						<option value="Concordia">Concordia</option>
+						<option value="Cosala">Cosala</option>
+						<option value="Culiacan">Culiacán</option>
+						<option value="El Fuerte">El Fuerte</option>
+						<option value="El Rosario">El Rosario</option>
+						<option value="Elota">Elota</option>
+						<option value="Escuinapa">Escuinapa</option>
+						<option value="Guasave">Guasave</option>
+						<option value="Mazatlan">Mazatlan</option>
+						<option value="Mocorito">Mocorito</option>
+						<option value="Navolato">Navolato</option>
+						<option value="Salvador Alvarado">Salvador Alvarado</option>
+						<option value="San Ignacio">San Ignacio</option>
+						<option value="Sinaloa de Leyva">Sinaloa de Leyva</option>
+					</select>
+					</td>
+				</tr>
+			</table>
+			<h2 align="center">¿Que municipio te gusta menos?</h2>
+			<table align="center">
+				<tr>
+					<td>
+						<select  name ="dislike" > 
+						<option value="Ahome">Ahome</option>
+						<option value="Angostura">Angostura</option>
+						<option value="Badiraguato">Badiraguato</option>
+						<option value="Choix">Choix</option>
+						<option value="Concordia">Concordia</option>
+						<option value="Cosala">Cosala</option>
+						<option value="Culiacan">Culiacán</option>
+						<option value="El Fuerte">El Fuerte</option>
+						<option value="El Rosario">El Rosario</option>
+						<option value="Elota">Elota</option>
+						<option value="Escuinapa">Escuinapa</option>
+						<option value="Guasave">Guasave</option>
+						<option value="Mazatlan">Mazatlan</option>
+						<option value="Mocorito">Mocorito</option>
+						<option value="Navolato">Navolato</option>
+						<option value="Salvador Alvarado">Salvador Alvarado</option>
+						<option value="San Ignacio">San Ignacio</option>
+						<option value="Sinaloa de Leyva">Sinaloa de Leyva</option>
+					</select>
+					</td>
+				</tr>
+			</table>
+			<h2 align="center"> ¿Que platillos de Sinaloa te gustan?</h2>
+			<table align="center">
+				<tr>
+					<td class="blanco" align="right">Tamales de Elote<input type="checkbox" name="comida[]" value="Tamales de Elote"></td>
+				</tr>
+				<tr>
+					<td class="blanco" align="right">Frijoles Puercos<input type="checkbox" name="comida[]" value="Frijoles Puercos"></td>
+				</tr>
+				<tr>
+					<td class="blanco" align="right">Aguachile<input type="checkbox" name="comida[]" value="Aguachile"></td>
+				</tr>
+				<tr>
+					<td class="blanco" align="right">Pescado Zarandeado<input type="checkbox" name="comida[]" value="Pescado Zarandeado"></td>
+				</tr>
+			</table>
+			<h2 align="center">Comentarios</h2>
+			<table align="center">
+				<tr>
+					<td>
+						<textarea name="comentarios" cols="50" rows="20">Deja tu opinión...</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Enviar">
+					</td>
+				</tr>
+			</table>
+		</section>
+	</div>
+	<footer class="container-fluid color1" align="center"></footer>
+	<div class="row color1">
+		<div class="col-xs-12">
+			<small ><p>Derechos reservados AlexAyala&copy;</p></small>
+		</div>
+	</div>
+	<script src="js/bootstrap.js"></script>
+	
+</body>
+</html>
